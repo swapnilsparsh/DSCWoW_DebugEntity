@@ -1,7 +1,7 @@
 .testimonial {
   width: 50%;
   background-color: white;
-  margin-left: -4rem;
+  margin-left: 1rem;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   padding: 3rem;
@@ -27,8 +27,7 @@
     position: relative;
     transform: translateX(-3rem) skewX(0deg); }
     @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-      .testimonial-shape {
-      } }
+    }
     @media (max-width: 37.5em) {
       .testimonial-shape {
         margin-left: 3rem;
@@ -145,18 +144,21 @@
   background: url("../img/syed-ali-l2OdGlshGC0-unsplash.jpg") no-repeat center;
 }
 
+.pho {
+  height: 11rem;
+}
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/corona.jpg);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
   @media (max-width: 75em) {
     .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/corona.jpg);
       background-size: cover; } }
   @media (max-width: 56.25em) {
     .book {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg);
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/corona.jpg);
       background-size: cover; } }
   .book-form {
     width: 50%;
@@ -502,7 +504,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image:url(../img/wallpaperflare.com_wallpaper.jpg);
+  background-image:url(../img/mainpalace-01.jpeg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -854,7 +856,7 @@ body {
     transform: translateY(-1.5rem) scale(1.03); }
 
 .section-tour {
-  background-color: white;
+  background-color: black;
   padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
   @media (max-width: 56.25em) {
@@ -996,7 +998,7 @@ body {
       padding: 10rem 0; } }
 
 .section-booking {
-  padding: 15rem 0;
+  padding: 5rem 0;
   background-image: linear-gradient(to right bottom, #efbbff, #be29ec); }
   @media (max-width: 56.25em) {
     .section-booking {
