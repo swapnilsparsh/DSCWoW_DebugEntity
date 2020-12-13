@@ -10,6 +10,15 @@
     transform: skew(0deg);
 }
 
+@font-face{
+    font-family: 'sans';
+    src: url('/font/sans.ttf');
+}
+
+p li {
+    font-family: 'sans';
+}
+
 @media (max-width: 56.25em) {
     .testimonial {
         margin-top: 2rem;
@@ -200,6 +209,7 @@
 }
 
 .paragraph1{
+    font-family: 'sans';
     color: black;
     font-size: 1.15rem;
 }
@@ -342,6 +352,7 @@ input[type='radio']:checked:before {
 }
 
 .footer {
+    font-family: 'sans';
     background-color: #333333;
     padding: 1rem;
     font-size: 0.8rem; }
@@ -407,6 +418,7 @@ input[type='radio']:checked:before {
 }
 
 .navigation-button {
+    font-family: 'sans';
     background-color: #ffffff;
     height: 7rem;
     width: 7rem;
@@ -573,6 +585,7 @@ input[type='radio']:checked:before {
 }
 
 .popup {
+    font-family: 'sans';
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -1096,7 +1109,8 @@ body {
 }
 
 .section-about {
-    background-image: linear-gradient(to right bottom, #000000a6, #000000b6);
+    font-family: 'sans';
+    background-color: #ffcf75;
     padding: 25rem 0;
     margin-top: -10vh;
 }
@@ -1119,7 +1133,7 @@ body {
 }
 .heading-sec1 {
     margin-top: 10rem;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     text-transform: uppercase;
     font-weight: 700;
     display: inline-block;
@@ -1238,6 +1252,9 @@ body {
 .margin-top-big {
     margin-top: 2rem;
 }
+.margin-top-big1 {
+    margin-top: 18rem;
+}
 
 .margin-bottom-small {
     margin-bottom: 2rem;
@@ -1250,7 +1267,7 @@ body {
 }
 
 .heading-text1 {
-    color: orange;
+    color: black;
     padding-top: 2rem;
     font-size: 1.6rem;
     font-weight: 700;
@@ -1258,14 +1275,16 @@ body {
 }
 
 .route {
+    font-family: 'sans';
     font-size: 1.2rem;
     font-weight: 700;
     text-align: left;
 }
 
 .paragraph {
+    font-family: 'sans';
     color: white;
-    font-size: 1.15rem;
+    font-size: 1.30rem;
 }
 
 .paragraph:not(:last-child) {
@@ -1417,7 +1436,8 @@ body {
 }
 
 .section-tour {
-    background-image: linear-gradient(to right bottom, #000000a6, #000000b6);
+    font-family: 'sans';
+    background-color: #ffcf75;
     padding: 15rem 0 15rem 0;
 }
 
@@ -1631,6 +1651,7 @@ only screen and (hover: none) {
 }
 
 .section-booking {
+    font-family: 'sans';
     margin-top: -15rem;
     padding: 5rem 0;
     background-image: linear-gradient(to right, #F57E27, #DD0D62);

@@ -1,3 +1,21 @@
+@font-face{
+  font-family: 'sans';
+  src: url('../css/fonts/sans.ttf');
+}
+
+p {
+  font-family: 'sans';
+}
+
+h3{
+  font-family: 'sans';
+}
+
+a{
+  font-family: 'sans';
+}
+
+
 .header {
     height: 100vh;
     background:url("img/bag1.jpg");
