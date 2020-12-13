@@ -937,6 +937,7 @@ body {
 
 .header-logo {
     height: 8rem;
+    border-radius: 2rem;
     /* -webkit-filter: drop-shadow(5px 5px 5px white);
         filter: drop-shadow(5px 5px 5px white); */
 }
