@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'sans';
-    src: url('font/sans.ttf');
+    src: url('fonts/sans.ttf');
 }
 
 p li {
@@ -1309,7 +1309,7 @@ body {
 
 .paragraph {
     font-family: 'sans';
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.30rem;
 }
 
